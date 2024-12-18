@@ -1,16 +1,5 @@
 import streamlit as st
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #fffdd0;
-        font-family: 'Arial';
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 st.markdown(
@@ -33,10 +22,17 @@ Gramalytics is designed to help Instagram users enhance their visibility and eng
 
 st.subheader("Meet the Team:")
 st.write("""
-Our team consists of highly motivated individuals committed to delivering quality work. Though each memeber took leadership of different area of implementation, the process was collaborative. The breakdown goes as follows:
+Our team consists of highly motivated individuals committed to delivering quality work. Though each member took leadership of different areas of implementation, the process was collaborative. The breakdown goes as follows:
 - **Esther Bilenkin**: Backend Developer
 - **Dhara Rameshbhai Chandpara**: Frontend Developer
 - **Farzana Alam**: Database Implementation
+""")
+
+st.subheader("Project Advisor:")
+st.write("""
+- **Dr. Wenjia Li**   
+- Title: Professor of Computer Science at NYIT
+- Email: wli20@nyit.edu
 """)
 
 st.subheader("Semester One:")
